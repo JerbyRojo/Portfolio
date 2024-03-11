@@ -12,12 +12,12 @@ import ReactIcon from '../assets/logo-react.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-gradient-to-tr from-slate-800 to-slate-950 text-gray-300'>
+    <div name='skills' className='w-full h-fit  bg-gradient-to-tr from-slate-800 to-slate-950 text-gray-300'>
 
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
-        <div className='mt-[200px]'>
-          <p className='text-4xl font-bold inline border-b-4 border-teal-800'>Tools</p>
+        <div className='mt-[250px]'>
+          <p className='text-4xl font-bold inline border-b-4 border-slate-600'>Skills</p>
           <p className='py-4'>Tools used:</p>
         </div>
 

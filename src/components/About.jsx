@@ -2,13 +2,15 @@ import React from 'react';
 import { FaGamepad, FaSun } from 'react-icons/fa';
 import { IoMdMusicalNotes, IoMdTrophy } from 'react-icons/io';
 
+
+
 const About = () => {
     return (
         <div name='about' className='w-full h-screen bg-gradient-to-br from-slate-800 to-slate-950 text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='sm:text-right pb-8 pl-4'>
-                        <p className='text-4xl font-bold inline border-b-4 border-slate-800'>About</p>
+                    <div className='mt-28 sm:text-right pb-8 pl-4'>
+                        <p className='text-4xl font-bold inline border-b-4 border-slate-600'>About</p>
                     </div>
                     <div></div>
                 </div>
@@ -43,6 +45,9 @@ const About = () => {
                             Let's build something amazing together! 🚀
                         </p>
                     </div>
+
+                   
+
                 </div>
             </div>
         </div>
