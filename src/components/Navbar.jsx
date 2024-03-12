@@ -86,32 +86,32 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-full bg-[#3b5998] bg-opacity-65' >
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.facebook.com/jeremybrent.rojo/">
                             Facebook <FaFacebook size={35} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-full bg-[#c13584] bg-opacity-65' >
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.instagram.com/rojojeremy/">
                             Instagram <FaInstagram size={35} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-full bg-[#0077b5] bg-opacity-65' >
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/jeremy-brent-rojo-5b2951141/">
                             Linkedin <FaLinkedin size={35} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-full bg-[#171515] bg-opacity-65' >
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/JerbyRojo">
                             Github <FaGithub size={35} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-full bg-[#ea4335] bg-opacity-65' >
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://mail.google.com">
                             Gmail <HiOutlineMail size={35} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 rounded-full bg-[#5fa6ec] bg-opacity-65' >
-                        <a className='flex justify-between items-center w-full text-gray-300' href="/">
+                        <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/JerbyRojo/Docs/blob/main/RojoJeremy-Brent-Resume.pdf">
                             Resume <BsFillPersonLinesFill size={35} />
                         </a>
                     </li>
