@@ -1,8 +1,10 @@
 import React from 'react'
 import Simple from '../assets/simple.PNG'
-import Estate from '../assets/realestate.jpg'
 import Backend from '../assets/backend.webp'
-import Work from '../assets/workImg.jpeg'
+import Api from '../assets/E-commerce-api.PNG'
+import Weather from '../assets/Weather.PNG'
+import MyWebsiteOne from '../assets/mywebsite-one.PNG'
+
 
 const Projects = () => {
     return (
@@ -47,11 +49,11 @@ const Projects = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>E-Commerce
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://jerbyrojo.github.io/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="http://ec2-18-220-120-229.us-east-2.compute.amazonaws.com/b1/products" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
 
-                                <a href="https://github.com/JerbyRojo/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JerbyRojo/E-Commerce" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -59,7 +61,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${Estate})` }}
+                    <div style={{ backgroundImage: `url(${Api})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effect*/}
@@ -67,11 +69,11 @@ const Projects = () => {
                             <span className='text-2xl font-bold text-white tracking-wider'>E-Commerce API
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://jerbyrojo.github.io/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="http://zuitt-bootcamp-prod-384-6770-rojo.s3-website.us-east-1.amazonaws.com/" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
 
-                                <a href="https://github.com/JerbyRojo/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JerbyRojo/E-Commerce-API" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -79,19 +81,19 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${Backend})` }}
+                    <div style={{ backgroundImage: `url(${Weather})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effect*/}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>E-Commerce
+                            <span className='text-2xl font-bold text-white tracking-wider'>Open WeatherApp
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://jerbyrojo.github.io/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="https://weatherapp-taupe-alpha.vercel.app" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
 
-                                <a href="https://github.com/JerbyRojo/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JerbyRojo/JerbyRojo" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -99,19 +101,19 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${Work})` }}
+                    <div style={{ backgroundImage: `url(${MyWebsiteOne})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effect*/}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>E-Commerce
+                            <span className='text-2xl font-bold text-white tracking-wider'>My Website-1
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://jerbyrojo.github.io/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="https://website1-gilt.vercel.app/" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
                                 </a>
 
-                                <a href="https://github.com/JerbyRojo/webportfolio" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/JerbyRojo/Website1" target="_blank" rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
